@@ -8,7 +8,7 @@ public static void main(String[] args) {
     CircularDoublyLinkedList obj = new CircularDoublyLinkedList();
     obj.createList();
     do {
-        System.out.println("\n1.Insert Left\n2.Insert Right\n3.Delete Left\n4.Delete Right\n5.Print List\n0.Exit\n:");
+        System.out.println(".Insert Left\n2.Insert Right\n3.Delete Left\n4.Delete Right\n5.Print List\n0.Exit\n:");
         ch = sc.nextInt();
         switch (ch) {
             case 1:
